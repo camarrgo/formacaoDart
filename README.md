@@ -8,3 +8,6 @@ Primeiro commit: Projeto Base para inciar aula 03 Exceções.
 
 # aula03 - 01. Erros, Exceções e Pilhas de Execução
 Segundo Commit: 01. Erros, Exceções e Pilhas de Execução
+
+# aula03 - 02 Tratamento de Exceções
+Segundo commit.
