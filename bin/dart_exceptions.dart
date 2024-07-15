@@ -3,23 +3,21 @@ import 'models/account.dart';
 
 void main() {
   // Criando o banco
-  BankController bankController = BankController();
+  print("Started Main");
+  functionOne();
+  print("Finish Main");
+}
 
-  // Adicionando contas
-  bankController.addAccount(
-      id: "Ricarth",
-      account:
-          Account(name: "Ricarth Lima", balance: 400, isAuthenticated: true));
+void functionOne(){
+  print("Started F01");
+  functionTwo();
+  print("Finish F02");
+}
 
-  bankController.addAccount(
-      id: "Kako",
-      account:
-          Account(name: "Caio Couto", balance: 600, isAuthenticated: true));
-
-  // Fazendo transferência
-  bool result = bankController.makeTransfer(
-      idSender: "Kako", idReceiver: "Ricarth", amount: 700);
-
-  // Observando resultado
-  print(result);
+void functionTwo(){
+  print("Started F02");
+  for(int i = 0; i <= 5; i++){
+    print(i);
+  }
+  print("Finish F02");
 }
