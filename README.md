@@ -1,1 +1,2 @@
-A sample command-line application providing basic argument parsing with an entrypoint in `bin/`.
+# formacaoDart aula 02 Sintaxe, colecoes e dinamismo
+Aula 02.1 Sintaxe, colecoes e dinamismo (ALURA)
