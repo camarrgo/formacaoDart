@@ -6,5 +6,5 @@ Além disso, aprenderá a identificar o que são nulos e a lidar com o Null Safe
 
 Primeiro commit: Projeto Base para inciar aula 03 Exceções.
 
-#aula03 - 01. Erros, Exceções e Pilhas de Execução
+# aula03 - 01. Erros, Exceções e Pilhas de Execução
 Segundo Commit: 01. Erros, Exceções e Pilhas de Execução
