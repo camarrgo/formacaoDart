@@ -1,16 +1,8 @@
-# formacaoDart Aula 03 Exceções
-Para esta aula 03 farei varios COMMIT contendo cada aula que pertence a Aula 03 Exceções.
+# Aula 04 - Assincronismo
+Neste commit estou enviando o projeto base para a aula de Assincronismo.
 
-"Nessa etapa da formação, você aprenderá a identificar a diferença entre erro e exceção, compreender o que é uma pilha de execução e criar suas próprias exceções personalizadas.
-Além disso, aprenderá a identificar o que são nulos e a lidar com o Null Safety. Todas essas habilidades são necessárias para construir um código seguro e evitar erros e problemas indesejados em aplicações!"
+"
+Neste passo, você vai desbloquear uma habilidade essencial: o assincronismo, ou seja, escrever códigos que demoram - de propósito - para fazer coisas incríveis como conectar um projeto ao banco de dados on-line para receber mensagens e fotos.
 
-Primeiro commit: Projeto Base para inciar aula 03 Exceções.
-
-# aula03 - 01. Erros, Exceções e Pilhas de Execução
-Segundo Commit: 01. Erros, Exceções e Pilhas de Execução
-
-# aula03 - 02 Tratamento de Exceções
-Segundo commit.
-
-# aula04 - 04 segurança de nulos
-ultimo commit da aula 03 =)
+O assincronismo está presente em muitas tecnologias que usamos no dia a dia como o WhatsApp e o Instagram e naturalmente é necessário à carreira de quem busca a “fluência” em Dart.
+"
