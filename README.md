@@ -11,3 +11,6 @@ Segundo Commit: 01. Erros, Exceções e Pilhas de Execução
 
 # aula03 - 02 Tratamento de Exceções
 Segundo commit.
+
+# aula04 - 04 segurança de nulos
+ultimo commit da aula 03 =)
