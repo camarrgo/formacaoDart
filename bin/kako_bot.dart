@@ -4,20 +4,19 @@ import 'dart:io';
 import 'questions/time_questions.dart';
 
 void main() async {
-  String kakoBot = 'KakoBOT:\n';
+  String kakoBot = 'perguntaBOT:\n';
   var a = true;
   String usuario = '';
 
-  print('-- Iniciando o KakoBOT, aguarde..--');
+  print('-- Iniciando o perguntaBOT, aguarde..--');
 
-  print('KakoBOT:\n Oi :) \n Como posso ajudar?');
+  print('perguntaBOT:\n Oi :) \n Como posso ajudar?');
   do {
-    usuario = stdin.readLineSync().toString();
+    usuario = stdin.readLineSync().toString().toUpperCase();
     print('-- Processando pergunta, aguarde..--');
-    if (usuario.contains('xau') ||
-        usuario.contains('Xau') ||
-        usuario.contains('Adeus') ||
-        usuario.contains('adeus')) {
+    if (usuario.contains('XAU') ||
+        usuario.contains('FLW') ||
+        usuario.contains('ADEUS')) {
       a = false;
       print(kakoBot + ' Até a proxima!!');
     } else if (TimeQuestions(usuario).isThisTime()) {
@@ -32,5 +31,5 @@ void main() async {
     }
   } while (a);
 
-  print('--Encerrando KakoBOT--');
+  print('--Encerrando perguntaBOT--');
 }

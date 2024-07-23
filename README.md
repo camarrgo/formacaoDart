@@ -6,3 +6,6 @@ Neste passo, você vai desbloquear uma habilidade essencial: o assincronismo, ou
 
 O assincronismo está presente em muitas tecnologias que usamos no dia a dia como o WhatsApp e o Instagram e naturalmente é necessário à carreira de quem busca a “fluência” em Dart.
 "
+
+# 01. Síncrono vs Assíncrono
+Adicionei um calculo de dias vividos, a logca esta correta a validacao da data esta um pouco crua, nao quis me aprofundar, mas pdoe ser implementada =)
