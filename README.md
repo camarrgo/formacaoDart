@@ -12,3 +12,5 @@ Adicionei um calculo de dias vividos, a logca esta correta a validacao da data e
 
 # finalizacao do projeto 
 criamos strams , subscriber, como pausar, inciiar uma stream e como cancela-la
+
+# Projeto final

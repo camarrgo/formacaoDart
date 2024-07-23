@@ -1,6 +1,7 @@
 
 import 'dart:io';
 
+import 'questions/good_manners.dart';
 import 'questions/time_questions.dart';
 import 'timing/BotCLock.dart';
 
@@ -9,14 +10,14 @@ void main() async {
   var loopRepete = true;
   String usuario = '';
 
-  var minhaStram = BotClock().perguntaBotStream(1,10);
-
-  var subScriber = minhaStram.listen((event) {
-    print('           perguntaBot esta ativdado por $event segundos.');
-  }, onDone: (){
-    print('           perguntaBot esta finalizando sua atividade, faça sua ultima pergunta!.');
-    loopRepete = false;
-  });
+  // var minhaStram = BotClock().perguntaBotStream(1,10);
+  //
+  // var subScriber = minhaStram.listen((event) {
+  //   print('           perguntaBot esta ativdado por $event segundos.');
+  // }, onDone: (){
+  //   print('           perguntaBot esta finalizando sua atividade, faça sua ultima pergunta!.');
+  //   loopRepete = false;
+  // });
 
   print('-- Iniciando o perguntaBOT, aguarde..--');
 
@@ -37,8 +38,11 @@ void main() async {
       await BotClock().clock(2);
       TimeQuestions(usuario).timeQuestion();
 
-    } else if (false) {
+    } else if (GoodManners(usuario).isThisManners()) {
+      GoodManners(usuario).goodManners();
+    } else if (GoodManners(usuario).isPerguntaMatematica()) {
       //Basta adicionar novas perguntas aqui!
+      GoodManners(usuario).fazCalculo(usuario);
     } else {
       await BotClock().clock(2);
       print(kakoBot +
