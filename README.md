@@ -9,3 +9,6 @@ O assincronismo está presente em muitas tecnologias que usamos no dia a dia com
 
 # 01. Síncrono vs Assíncrono
 Adicionei um calculo de dias vividos, a logca esta correta a validacao da data esta um pouco crua, nao quis me aprofundar, mas pdoe ser implementada =)
+
+# finalizacao do projeto 
+criamos strams , subscriber, como pausar, inciiar uma stream e como cancela-la
